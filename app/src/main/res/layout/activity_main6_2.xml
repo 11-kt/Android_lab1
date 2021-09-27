@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/button"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButton6_2"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintStart_toEndOf="@+id/textView6_2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <CheckBox
+            android:id="@+id/checkBox6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/checkbox"
+            android:background="@color/purple_200"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintWidth_percent="0.4"
+            app:layout_constraintBottom_toTopOf="@+id/switch6_2"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButton6_2"
+            app:layout_constraintStart_toEndOf="@+id/textView6_2" />
+
+        <Switch
+            android:id="@+id/switch6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/switcher"
+            android:gravity="center"
+            android:background="@color/purple_700"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintWidth_percent="0.4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/checkBox6_2"
+            app:layout_constraintStart_toStartOf="@+id/checkBox6_2"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/togglebutton"
+            android:background="@color/teal_700"
+            app:layout_constraintBottom_toBottomOf="@+id/checkBox6_2"
+            app:layout_constraintEnd_toStartOf="@+id/radioButton6_2"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <RadioButton
+            android:id="@+id/radioButton6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/radiobutton"
+            android:background="@color/design_default_color_error"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintWidth_percent="0.2"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox6_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6_2" />
+
+        <TextView
+            android:id="@+id/textView6_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/lab_1"
+            android:gravity="center"
+            android:background="@color/teal_700"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintWidth_percent="0.2"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox6_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6_2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

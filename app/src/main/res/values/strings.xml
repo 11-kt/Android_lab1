@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="button">Button</string>
+    <string name="switcher">Switch</string>
+    <string name="lab_1">Lab_1</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radiobutton">RB</string>
+    <string name="textview">TextView</string>
+    <string name="sw">sw</string>
+</resources>
